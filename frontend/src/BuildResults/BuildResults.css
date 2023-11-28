@@ -1,0 +1,21 @@
+.resultTabHeader {
+    margin-bottom: 1rem;
+}
+.resultItem {
+    line-height: 1.5rem;
+}
+
+.resultItem td:first-child {
+    min-width: auto;
+}
+
+.resultItem td:last-child {
+    word-wrap: break-word;
+    overflow: unset;
+    white-space: break-spaces;
+}
+
+.resultItem td {
+    height: 0;
+    vertical-align: top;
+}

@@ -1,0 +1,19 @@
+*.class
+
+servers/
+target/
+BuildArchive/
+
+#random 'notes' folders to ignore
+playground/
+scratch/
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+*.iml
+# don't include the build bundle files
+*.bundle.js
+
+## Directory-based project format:
+/.idea/
+
+node_modules/

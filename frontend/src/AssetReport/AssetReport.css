@@ -1,0 +1,37 @@
+
+.assetReportTable {
+    display: table;
+}
+
+.assetReportTable > * {
+    display: table-row;
+}
+
+.assetReportTable .warningRow {
+    display: table-row;
+}
+
+.assetReportTable .errorRow {
+    display: table-row;
+    color: #a90f1a; /* FIXME should be --ring-error-color */
+}
+
+.assetReportTable .col {
+    display: table-cell;
+    padding-right: 0.5rem;
+}
+
+.assetReportTable .col :first-of-type {
+    display: table-cell;
+    padding-right: 0.5rem;
+    max-width: 1rem;
+    overflow: visible;
+}
+
+.assetReportTable > header .col {
+    padding-top: 1rem;
+}
+
+.assetReportTable > div .col {
+    border-top:1px solid #dfe5eb;
+}

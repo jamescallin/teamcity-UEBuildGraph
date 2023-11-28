@@ -1,0 +1,65 @@
+
+.cookStatsTable {
+    display: table;
+}
+
+.cookStatsTable > * {
+    display: table-row;
+}
+
+.cookStatsTable .col {
+    display: table-cell;
+    padding-right: 0.5rem;
+}
+
+.cookStatsTable > header .col {
+    padding-top: 1rem;
+}
+
+.cookStatsTable > div .col {
+    border-top:1px solid #dfe5eb;
+}
+
+.cookStatsTable .uebgHier0 {
+    padding-left: 1rem;
+}
+.cookStatsTable .uebgHier1 {
+    padding-left: 2rem;
+}
+.cookStatsTable .uebgHier2 {
+    padding-left: 3rem;
+}
+.cookStatsTable .uebgHier3 {
+    padding-left: 4rem;
+}
+.cookStatsTable .uebgHier4 {
+    padding-left: 5rem;
+}
+.cookStatsTable .uebgHier5 {
+    padding-left: 6rem;
+}
+
+.cookStatsSeqContainer {
+    width: 99%;
+}
+
+.tooltip
+{
+    width:200px;
+    margin:0;
+    line-height:24px;
+    border:1px solid #f5f5f5;
+    background-color:hsla(0,0%,100%,.8);
+    padding:10px
+}
+
+.tooltip p:first-child {
+    margin:0;
+    color:#666;
+    font-weight:700
+}
+
+.tooltip p {
+    margin:0;
+    color:#666
+}

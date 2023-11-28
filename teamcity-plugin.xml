@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamcity-plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:schemas-jetbrains-com:teamcity-plugin-v1-xml">
+  <info>
+    <name>UEBuildGraph</name>
+    <display-name>UE BuildGraph Runner</display-name>
+    <version>@Version@</version>
+    <description>Runner for UE BuildGraph commandlet</description>
+    <download-url>Plugin download URL</download-url>
+    <email>uebuildgraph at buildfifteen.com</email>
+    <vendor>
+      <name>@VendorName@</name>
+      <url>@VendorURL@</url>
+      <logo>Plugin vendor logo URL</logo>
+    </vendor>
+  </info>
+  <deployment use-separate-classloader="true"/>
+</teamcity-plugin>

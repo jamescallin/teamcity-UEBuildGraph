@@ -1,0 +1,20 @@
+
+.contentPanel {
+    width: 100%;
+}
+
+.uebgSummary {
+    display: flex;
+    flex-direction: row;
+}
+.uebgSummary .name {
+    text-align: right;
+    padding-right: 1rem;
+    width: 5rem;
+}
+.uebgSummary .count {
+    width: 3rem;
+}
+.uebgSummary .unique {
+    width: 3rem;
+}

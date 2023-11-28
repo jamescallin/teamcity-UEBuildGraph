@@ -1,0 +1,41 @@
+{
+  "name": "uebuildgraph-plugin",
+  "version": "1.0.2",
+  "engines": {
+    "node": "^10.13.0 || >=11.10.1"
+  },
+  "private": true,
+  "scripts": {
+    "start": "webpack serve --env devserver",
+    "build": "webpack",
+    "build-prod": "webpack --env production --env analyze",
+    "docker-start": "npm install && npm run start -- --port=8080 --host 0.0.0.0",
+    "docker-build": "npm install && npm run build"
+  },
+  "dependencies": {
+    "@jetbrains/icons": "^3.19.1",
+    "@jetbrains/ring-ui": "^5.0.17",
+    "@jetbrains/teamcity-api": "^2022.4.1-v.1",
+    "moment": "^2.29.4",
+    "recharts": "^2.1.13"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.9",
+    "@babel/core": "^7.18.9",
+    "@babel/plugin-proposal-export-default-from": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/preset-typescript": "^7.18.6",
+    "@babel/preset-react": "^7.18.6",
+    "@jetbrains/browserslist-config-teamcity": "0.0.6",
+    "@tsconfig/recommended": "1.0.1",
+    "core-js": "^3.24.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "^4.7.4",
+    "ts-loader": "^9.3.0",
+    "webpack": "^5.0.0",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.0"
+  }
+}

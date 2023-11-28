@@ -1,0 +1,12 @@
+
+.triggerRow td {
+    padding: 0.6em 1em;
+    border: 1px solid #ccc;
+}
+
+.triggerTitle {
+    margin-left: -0.8em;
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+    border: none;
+}

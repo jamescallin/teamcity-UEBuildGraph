@@ -1,0 +1,17 @@
+version: '3'
+services:
+  dev:
+    image: node:lts
+    working_dir: /frontend
+    ports:
+      - 8080:8080
+    volumes:
+      - ./frontend:/frontend
+    command: "npm run docker-start"
+  build:
+    image: node:lts
+    working_dir: /frontend
+    volumes:
+      - ./frontend:/frontend
+      - ./UEBuildGraph-server/src/main/resources/buildServerResources:/UEBuildGraph-server/src/main/resources/buildServerResources
+    command: "npm run docker-build"
